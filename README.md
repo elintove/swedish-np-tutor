@@ -9,13 +9,20 @@ An AI-powered tutor for learning Swedish noun phrase grammar, specifically focus
 - Dynamic exercise generation.
 
 ## Run the agent (LLM-backed)
-1) Create a `.env` file in the project root:
+
+1) Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2) Create a `.env` file in the project root:
 
 ```bash
 API_KEY=your_berget_key_here
 ```
 
-2) Run:
+3) Run:
 
 ```bash
 python SweNPAgent.py
