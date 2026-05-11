@@ -30,6 +30,31 @@ python SweNPAgent.py
 
 The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions API. If no key is set, it will fall back to the built-in heuristic detector.
 
+## Project Structure
+
+swedish-np-tutor/
+│
+├── src/
+│   ├── SweNPAgent.py
+│   ├── llm_client.py
+│   ├── retrieval_module.py
+│   ├── memory_compactor.py
+│   ├── env.py
+│
+├── grammar_db/
+│   ├── rules.json
+│   ├── examples.json
+│   ├── minimal_pairs.json
+│
+├── data/
+│   ├── session_log.jsonl
+│   ├── learner_profile.md
+│
+├── report.tex
+├── README.md
+├── requirements.txt
+└── .env.example
+
 ## Interaction style
 - The agent **starts by asking you to translate an English NP into Swedish**.
 - It then **reviews your translation**, explains any issues **in English**, and gives a short exercise.
@@ -52,3 +77,10 @@ The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions
 
 ## Compacted long-term memory
 The agent appends events to `data/session_log.jsonl` and periodically compacts them into a short summary at `data/learner_profile.md` (level, recurring errors, recommended focus).
+
+## Limitations
+
+- Retrieval is purely lexical (BM25), not semantic
+- No fine-tuned Swedish grammar model
+- LLM dependency for high-quality explanations
+- Limited coverage of complex noun phrase structures
