@@ -30,30 +30,6 @@ python SweNPAgent.py
 
 The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions API. If no key is set, it will fall back to the built-in heuristic detector.
 
-## Project Structure
-
-swedish-np-tutor/
-│
-├── src/
-│   ├── SweNPAgent.py
-│   ├── llm_client.py
-│   ├── retrieval_module.py
-│   ├── memory_compactor.py
-│   ├── env.py
-│
-├── grammar_db/
-│   ├── rules.json
-│   ├── examples.json
-│   ├── minimal_pairs.json
-│
-├── data/
-│   ├── session_log.jsonl
-│   ├── learner_profile.md
-│
-├── report.tex
-├── README.md
-├── requirements.txt
-└── .env.example
 
 ## Interaction style
 - The agent **starts by asking you to translate an English NP into Swedish**.
