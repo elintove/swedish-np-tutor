@@ -18,7 +18,7 @@ API_KEY=your_berget_key_here
 2) Run:
 
 ```bash
-python gpt-oss-120b.py
+python SweNPAgent.py
 ```
 
 The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions API. If no key is set, it will fall back to the built-in heuristic detector.
