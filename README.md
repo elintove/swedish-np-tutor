@@ -203,9 +203,8 @@ If `API_KEY` is not set, the agent will continue in fallback mode with reduced L
 swedish-np-tutor/
 ├── SweNPAgent.py
 ├── README.md
-├── README2.md
 ├── requirements.txt
-├── .env.example
+├── .env
 ├── .gitignore
 ├── src/
 │   ├── __init__.py
@@ -229,18 +228,6 @@ swedish-np-tutor/
 └── data/
     └── .gitkeep
 ```
-
-## Files Not Uploaded
-
-The following should stay local and are ignored by `.gitignore`:
-
-- `.env`
-- `.venv/`
-- `.vscode/`
-- `__pycache__/`
-- `data/state.json`
-- `data/session_log.jsonl`
-- `data/learner_profile.md`
 
 ## Testing
 
