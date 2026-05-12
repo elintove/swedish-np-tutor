@@ -1,0 +1,34 @@
+{
+  "definiteness_mismatch": {
+    "name": "Definiteness Mismatch",
+    "explanation": "In Swedish, the article and the noun form must match in definiteness. 'En' and 'ett' are indefinite articles (a/an). Definite nouns usually take a definite suffix (e.g., bil → bilen, hus → huset). Mixing an indefinite article with a definite suffix is ungrammatical.",
+    "levels": {
+      "beginner": "Basic rule: Use 'en/ett + noun' for indefinite (a/an). Use the definite suffix for definite (the): bil → bilen, hus → huset. Don’t combine 'en/ett' with the definite suffix.",
+      "advanced": "Nuance: Swedish often prefers the definite form in generic contexts (e.g., 'Hunden är ett djur' = The dog is an animal). But within a single noun phrase, avoid mixing an indefinite article with a definite suffix."
+    }
+  },
+  "double_definiteness": {
+    "name": "Double Definiteness",
+    "explanation": "With a definite noun phrase that includes an adjective, Swedish typically uses 'double definiteness': a free-standing definite article (den/det/de) + adjective + noun with a definite suffix.",
+    "levels": {
+      "beginner": "Rule: Adjective + definite noun → den/det/de + adjective + definite noun: den stora bilen, det gamla huset.",
+      "advanced": "Nuance: Some set phrases and certain proper names can behave differently, but for ordinary noun phrases you can default to double definiteness."
+    }
+  },
+  "article_omission": {
+    "name": "Article Omission",
+    "explanation": "Singular countable nouns usually require an article in Swedish when they are indefinite.",
+    "levels": {
+      "beginner": "Don’t forget 'en' or 'ett' before a singular countable noun: Jag har en hund / Jag köpte ett hus.",
+      "advanced": "Nuance: In some roles/professions you often omit the article: 'Jag är lärare' (I am a teacher). But for ordinary concrete count nouns, use en/ett."
+    }
+  },
+  "adjective_agreement": {
+    "name": "Adjective Agreement",
+    "explanation": "Adjectives must agree with the noun's gender (en/ett), number (singular/plural), and definiteness.",
+    "levels": {
+      "beginner": "Quick rule: en-words often use the base form (en stor bil), ett-words often add -t (ett stort hus), and plural/definite often use -a (de stora bilarna / den stora bilen).",
+      "advanced": "Nuance: Weak vs strong adjective forms depend on definiteness (e.g., den stora bilen vs en stor bil). The -a form is common in definite noun phrases and plural."
+    }
+  }
+}

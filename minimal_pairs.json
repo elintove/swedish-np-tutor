@@ -1,0 +1,87 @@
+[
+  {
+    "type": "definiteness_mismatch",
+    "pairs": [
+      {
+        "incorrect": "en bilen",
+        "correct": "en bil",
+        "note": "Indefinite article cannot be used with a definite noun suffix."
+      },
+      {
+        "incorrect": "ett huset",
+        "correct": "ett hus",
+        "note": "Don’t combine the indefinite article with the definite suffix (-et)."
+      },
+      {
+        "incorrect": "en boket",
+        "correct": "en bok",
+        "note": "A definite suffix belongs to a definite noun phrase; remove it in the indefinite."
+      },
+      {
+        "incorrect": "ett äpplet",
+        "correct": "ett äpple",
+        "note": "Keep the noun indefinite if you use 'ett'. Definite would be 'äpplet' (without ett)."
+      }
+    ]
+  },
+  {
+    "type": "double_definiteness",
+    "pairs": [
+      {
+        "incorrect": "stora bilen",
+        "correct": "den stora bilen",
+        "note": "Needs the free-standing definite article 'den'."
+      },
+      {
+        "incorrect": "gamla huset",
+        "correct": "det gamla huset",
+        "note": "With adjective + definite noun, add det/den/de (and keep the noun definite)."
+      },
+      {
+        "incorrect": "den stora bil",
+        "correct": "den stora bilen",
+        "note": "In definite NPs, the noun typically carries the definite suffix too (double definiteness)."
+      }
+    ]
+  },
+  {
+    "type": "article_omission",
+    "pairs": [
+      {
+        "incorrect": "Jag har hund",
+        "correct": "Jag har en hund",
+        "note": "A singular count noun usually needs an article in an indefinite NP."
+      },
+      {
+        "incorrect": "Vi såg hus",
+        "correct": "Vi såg ett hus",
+        "note": "With a single, countable item, include en/ett."
+      },
+      {
+        "incorrect": "Hon köpte bok",
+        "correct": "Hon köpte en bok",
+        "note": "Omitting the article sounds incomplete unless you mean an uncountable/general reading."
+      }
+    ]
+  },
+  {
+    "type": "adjective_agreement",
+    "pairs": [
+      {
+        "incorrect": "ett stor hus",
+        "correct": "ett stort hus",
+        "note": "For ett-words in singular indefinite, the adjective often takes -t (stort)."
+      },
+      {
+        "incorrect": "en stort bil",
+        "correct": "en stor bil",
+        "note": "For en-words in singular indefinite, the adjective usually stays in the base form (stor)."
+      },
+      {
+        "incorrect": "den stor bilen",
+        "correct": "den stora bilen",
+        "note": "In definite noun phrases, the adjective commonly uses the -a form (stora)."
+      }
+    ]
+  }
+]

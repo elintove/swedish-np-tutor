@@ -1,0 +1,110 @@
+[
+  {
+    "type": "definiteness_mismatch",
+    "correct": "en bil",
+    "incorrect": "en bilen",
+    "context": "Indefinite form"
+  },
+  {
+    "type": "definiteness_mismatch",
+    "correct": "ett hus",
+    "incorrect": "ett huset",
+    "context": "Indefinite article + definite suffix (neuter noun)"
+  },
+  {
+    "type": "definiteness_mismatch",
+    "correct": "bilen",
+    "incorrect": "en bilen",
+    "context": "Definite noun should not take an indefinite article"
+  },
+  {
+    "type": "definiteness_mismatch",
+    "correct": "huset",
+    "incorrect": "ett huset",
+    "context": "Definite noun should not take an indefinite article (neuter)"
+  },
+  {
+    "type": "definiteness_mismatch",
+    "correct": "den här bilen",
+    "incorrect": "en här bilen",
+    "context": "Demonstratives behave like definites; avoid indefinite article"
+  },
+  {
+    "type": "definiteness_mismatch",
+    "correct": "det där huset",
+    "incorrect": "ett där huset",
+    "context": "Demonstrative + definite noun phrase needs det/den, not ett/en"
+  },
+  {
+    "type": "double_definiteness",
+    "correct": "den stora bilen",
+    "incorrect": "en stora bilen",
+    "context": "Adjective with definite noun"
+  },
+  {
+    "type": "double_definiteness",
+    "correct": "det gamla huset",
+    "incorrect": "det gammalt huset",
+    "context": "Definite + adjective uses -a form on adjective (often) and double definiteness"
+  },
+  {
+    "type": "double_definiteness",
+    "correct": "den röda boken",
+    "incorrect": "röda boken",
+    "context": "With adjective + definite noun, add den/det/de"
+  },
+  {
+    "type": "double_definiteness",
+    "correct": "det nya äpplet",
+    "incorrect": "nya äpplet",
+    "context": "With adjective + definite neuter noun, add det"
+  },
+  {
+    "type": "article_omission",
+    "correct": "Jag har en hund",
+    "incorrect": "Jag har hund",
+    "context": "Indefinite countable noun"
+  },
+  {
+    "type": "article_omission",
+    "correct": "Hon köpte en bok",
+    "incorrect": "Hon köpte bok",
+    "context": "Singular count noun usually needs an article"
+  },
+  {
+    "type": "article_omission",
+    "correct": "Vi såg ett hus",
+    "incorrect": "Vi såg hus",
+    "context": "Neuter singular count noun needs ett"
+  },
+  {
+    "type": "article_omission",
+    "correct": "Jag vill ha en kaffe",
+    "incorrect": "Jag vill ha kaffe",
+    "context": "Countable interpretation (one coffee) needs an article"
+  },
+  {
+    "type": "adjective_agreement",
+    "correct": "en stor bil",
+    "incorrect": "en stort bil",
+    "context": "en-word: adjective stays base form (stor)"
+  },
+  {
+    "type": "adjective_agreement",
+    "correct": "ett stort hus",
+    "incorrect": "ett stor hus",
+    "context": "ett-word: adjective takes -t (stort)"
+  },
+  {
+    "type": "adjective_agreement",
+    "correct": "den stora bilen",
+    "incorrect": "den stor bilen",
+    "context": "definite NP: adjective often takes -a (stora)"
+  },
+  {
+    "type": "adjective_agreement",
+    "correct": "de stora husen",
+    "incorrect": "de stort husen",
+    "context": "plural definite: adjective uses -a (stora)"
+  }
+]
