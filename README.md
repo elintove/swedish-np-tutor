@@ -40,7 +40,6 @@ The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions
 - `/learn`: switch to learning mode
 - `/free`: switch to free training mode
 - `/question` (or `/q`): switch to Q&A mode (type `/back` to leave). This uses ranked retrieval over local JSON grammar data and no-key web results.
-- `/web <query>`: run a simple no-key web search using DuckDuckGo Lite.
 - `/exam`: take the exam
 - `/status`: show attempts/errors/mastery per topic
 
