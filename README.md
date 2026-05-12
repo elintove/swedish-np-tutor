@@ -36,13 +36,13 @@ The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions
   - 2nd time → shorter hint
   - 3rd+ time → minimal cue
 - **Free training mode**: you type any Swedish NP and get feedback + a targeted exercise.
-- **Q&A mode**: ask grammar questions; the agent answers in English using retrieved rules/examples/minimal pairs as context.
+- **Q&A mode**: ask grammar questions; the agent answers in English using hybrid retrieval over local rules/examples/minimal pairs plus DuckDuckGo Lite web results.
 - **Exam mode**: no hints, only **Correct/Incorrect** after each answer. Passing can promote your level.
 
 ### Commands
 - `/learn`: switch to learning mode
 - `/free`: switch to free training mode
-- `/question` (or `/q`): switch to Q&A mode (type `/back` to leave)
+- `/question` (or `/q`): switch to Q&A mode (type `/back` to leave). This uses ranked retrieval over local JSON grammar data and no-key web results.
 - `/web <query>`: run a simple web search. Uses DuckDuckGo Lite without a key, or Tavily if `TAVILY_API_KEY` is set.
 - `/exam`: take the exam
 - `/status`: show attempts/errors/mastery per topic
