@@ -1,4 +1,4 @@
-# Swedish NP Tutor
+# Swedish Noun Phrase Tutor Agent
 
 An AI-powered tutoring system for Swedish noun phrase grammar learning, combining retrieval-augmented grammar knowledge, large language models, and adaptive learner modeling.
 
