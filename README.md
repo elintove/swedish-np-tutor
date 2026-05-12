@@ -9,27 +9,20 @@ An AI-powered tutor for learning Swedish noun phrase grammar, specifically focus
 - Dynamic exercise generation.
 
 ## Run the agent (LLM-backed)
-
-1) Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-2) Create a `.env` file in the project root:
+1) Create a `.env` file in the project root:
 
 ```bash
 API_KEY=your_berget_key_here
+TAVILY_API_KEY=your_tavily_key_here  # optional, enables /web search
 ```
 
-3) Run:
+2) Run:
 
 ```bash
-python SweNPAgent.py
+python gpt-oss-120b.py
 ```
 
 The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions API. If no key is set, it will fall back to the built-in heuristic detector.
-
 
 ## Interaction style
 - The agent **starts by asking you to translate an English NP into Swedish**.
@@ -48,15 +41,9 @@ The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions
 - `/learn`: switch to learning mode
 - `/free`: switch to free training mode
 - `/question` (or `/q`): switch to Q&A mode (type `/back` to leave)
+- `/web <query>`: run a simple web search using Tavily
 - `/exam`: take the exam
 - `/status`: show attempts/errors/mastery per topic
 
 ## Compacted long-term memory
 The agent appends events to `data/session_log.jsonl` and periodically compacts them into a short summary at `data/learner_profile.md` (level, recurring errors, recommended focus).
-
-## Limitations
-
-- Retrieval is purely lexical (BM25), not semantic
-- No fine-tuned Swedish grammar model
-- LLM dependency for high-quality explanations
-- Limited coverage of complex noun phrase structures
