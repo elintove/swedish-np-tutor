@@ -4,12 +4,6 @@ An AI-powered tutoring system for Swedish noun phrase grammar learning, combinin
 
 Developed for **Information Retrieval (5LN712), Uppsala University**.
 
-## Links
-
-- GitHub repository: https://github.com/elintove/swedish-np-tutor
-- Hugging Face demo: add link here if deployed
-- Dataset/resources: structured grammar database in `grammar_db/`
-
 ## Project Overview
 
 This project implements an adaptive grammar tutoring agent for Swedish noun phrases.
@@ -205,6 +199,7 @@ swedish-np-tutor/
 ├── README.md
 ├── requirements.txt
 ├── .env
+├── IRass2_report.pdf
 ├── src/
 │   ├── __init__.py
 │   ├── agent.py
