@@ -13,7 +13,9 @@ An AI-powered tutor for learning Swedish noun phrase grammar, specifically focus
 
 ```bash
 API_KEY=your_berget_key_here
-TAVILY_API_KEY=your_tavily_key_here  # optional, enables /web search
+# Optional: use Tavily for more reliable /web search.
+# Without this, /web uses a no-key DuckDuckGo Lite fallback.
+TAVILY_API_KEY=your_tavily_key_here
 ```
 
 2) Run:
@@ -41,7 +43,7 @@ The agent will use the `openai/gpt-oss-120b` model via Berget's chat-completions
 - `/learn`: switch to learning mode
 - `/free`: switch to free training mode
 - `/question` (or `/q`): switch to Q&A mode (type `/back` to leave)
-- `/web <query>`: run a simple web search using Tavily
+- `/web <query>`: run a simple web search. Uses DuckDuckGo Lite without a key, or Tavily if `TAVILY_API_KEY` is set.
 - `/exam`: take the exam
 - `/status`: show attempts/errors/mastery per topic
 
