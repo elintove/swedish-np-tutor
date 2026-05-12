@@ -181,13 +181,11 @@ Clone or download the repository, then install the Python dependencies:
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the project root:
+Edit the `.env` file in the project root:
 
 ```bash
 API_KEY=your_berget_key_here
 ```
-
-Do not commit your real `.env` file. Use `.env.example` as the template.
 
 ## Running the Agent
 
