@@ -205,7 +205,6 @@ swedish-np-tutor/
 ├── README.md
 ├── requirements.txt
 ├── .env
-├── .gitignore
 ├── src/
 │   ├── __init__.py
 │   ├── agent.py
